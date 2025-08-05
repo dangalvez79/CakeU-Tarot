@@ -1,0 +1,80 @@
+
+/* ========== Global Styles ========== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+
+/* ========== Header ========== */
+header {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-family: "Petit Formal Script", cursive;
+}
+
+
+/* ========== Navigation ========== */
+nav {
+    background-color: #fce4ec;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #6a1b9a;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+    background: #333;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+
+/* ========== Main Content ========== */
+main, section {
+    padding: 20px;
+}
+
+section {
+    background-color: #fdf6f0;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+
+/* ========== Footer ========== */
+footer {
+    background-color: #4a148c;
+    color: white;
+    text-align: center;
+}
+
+
+/* ========== Responsive Layout ========== */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+}

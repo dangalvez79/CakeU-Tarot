@@ -1,15 +1,15 @@
-        const toggle = document.getElementById("darkModeToggle");
-        const hamburger = document.getElementById("hamburger");
-        const navLinks = document.getElementById("navLinks");
-        
-        toggle.addEventListener("click", () => {
-            document.body.classList.toggle("dark-mode");
-        });
+const toggle = document.getElementById("darkModeToggle");
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("navLinks");
 
-        hamburger.addEventListener("click", () => {
-            navLinks.classList.toggle("show");
-        });
+toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+});
 
-        window.addEventListener("load", () => {
-            document.getElementById("preloader").style.display = "none";
-        });
+hamburger.addEventListener("click", () => {
+    navLinks.classList.toggle("show");
+});
+
+window.addEventListener("load", () => {
+    document.getElementById("preloader").style.display = "none";
+});
